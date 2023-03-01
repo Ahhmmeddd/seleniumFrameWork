@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T07:49:20 PST" name="Default suite" finished-at="2023-02-28T07:49:47 PST" duration-ms="27362">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-28T07:49:20 PST" name="Default test" finished-at="2023-02-28T07:49:47 PST" duration-ms="27362">
+      <class name="tests.GuestCheckoutProductFromCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:11 PST" name="startDriver" finished-at="2023-02-28T07:49:20 PST" duration-ms="9055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:20 PST" name="setUpClass" finished-at="2023-02-28T07:49:20 PST" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d0865a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanSearchForProductsWithAutoSuggest()[pri:1, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:20 PST" name="UserCanSearchForProductsWithAutoSuggest" finished-at="2023-02-28T07:49:25 PST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForProductsWithAutoSuggest -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:25 PST" name="screenshotOnFailure" finished-at="2023-02-28T07:49:25 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchForProductsWithAutoSuggest status=SUCCESS method=GuestCheckoutProductFromCartTest.UserCanSearchForProductsWithAutoSuggest()[pri:1, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanAddProductToShoppingCart()[pri:2, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:25 PST" name="UserCanAddProductToShoppingCart" finished-at="2023-02-28T07:49:29 PST" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToShoppingCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:29 PST" name="screenshotOnFailure" finished-at="2023-02-28T07:49:29 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddProductToShoppingCart status=SUCCESS method=GuestCheckoutProductFromCartTest.UserCanAddProductToShoppingCart()[pri:2, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanCheckoutProduct()[pri:3, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:29 PST" name="UserCanCheckoutProduct" finished-at="2023-02-28T07:49:41 PST" duration-ms="11728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanCheckoutProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:41 PST" name="screenshotOnFailure" finished-at="2023-02-28T07:49:41 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanCheckoutProduct status=SUCCESS method=GuestCheckoutProductFromCartTest.UserCanCheckoutProduct()[pri:3, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanViewOrderDetails()[pri:4, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:41 PST" name="UserCanViewOrderDetails" finished-at="2023-02-28T07:49:47 PST" duration-ms="6500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanViewOrderDetails -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:47 PST" name="screenshotOnFailure" finished-at="2023-02-28T07:49:47 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanViewOrderDetails status=SUCCESS method=GuestCheckoutProductFromCartTest.UserCanViewOrderDetails()[pri:4, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:47 PST" name="tearDownClass" finished-at="2023-02-28T07:49:47 PST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.GuestCheckoutProductFromCartTest@2a65fe7c]" started-at="2023-02-28T07:49:47 PST" name="stopDriver" finished-at="2023-02-28T07:49:47 PST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.GuestCheckoutProductFromCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
